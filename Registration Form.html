@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Forms</title>
+  </head>
+  <body>
+    <h2>Registration Form</h2>
+    <h3>Personal Information</h3>
+    <form action="" method="post" name="Registration">
+      <p>
+        <label for="firstName">First Name</label>
+        <input
+          id="firstName"
+          type="text"
+          name="firstName"
+          placeholder=" Enter your First Name"
+          required
+        />
+        <label for="lastName">Last Name</label>
+        <input
+          id="lastName"
+          type="text"
+          name="lastName"
+          placeholder=" Enter your Last Name"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder=" Enter your Email"
+          required
+        />
+        <label for="password">Password</label>
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder=" Enter your Password"
+          required
+        />
+      </p>
+      <p>
+        <label for="id number">ID Number</label>
+        <input
+          id="id number"
+          type="number"
+          name="ID number"
+          placeholder=" Enter your ID number"
+          required
+        />
+        <label for="dob">Date of Birth</label>
+        <input
+          id="dob"
+          type="date"
+          name="dob"
+          placeholder=" Enter your Date of Birth"
+          required
+        />
+        <label for="tel">Telephone Number</label>
+        <input
+          id="tel"
+          type="tel"
+          name="phone"
+          placeholder=" Enter your Phone Number"
+          required
+        />
+      </p>
+      <p>
+        <label for="age">Age</label>
+        <input
+          id="age"
+          type="number"
+          name="age"
+          placeholder=" Enter your Age"
+          required
+        />
+      </p>
+
+      <p>
+        Gender:
+        <input type="radio" name="gender" value="male" required />
+        <input type="radio" name="gender" value="female" required />
+      </p>
+      <h3>Activities</h3>
+      <p>
+        Games:
+        <input type="checkbox" name="games" value="football" /> Football
+        <input type="checkbox" name="games" value="basketball" /> Basketball
+        <input type="checkbox" name="games" value="cricket" /> Cricket
+        <input type="checkbox" name="games" value="tennis" /> Tennis
+      </p>
+      <h3>Place of Residence</h3>
+      <p>
+        <label for="country">Country:</label>
+        <select name="country" id="country" required>
+          <option value="kenya">Kenya</option>
+          <option value="uganda">Uganda</option>
+          <option value="tanzania">Tanzania</option>
+          <option value="sudan">Sudan</option>
+        </select>
+      </p>
+      <p>
+        <label for="county">County:</label>
+        <select name="county" id="county" required>
+          <option value="nairobi">Nairobi</option>
+          <option value="mombasa">Mombasa</option>
+          <option value="kisumu">Kisumu</option>
+          <option value="nakuru">Nakuru</option>
+        </select>
+      </p>
+      <h3>More Information</h3>
+      <p>
+        <label for="profile">Profile:</label>
+        <textarea
+          name="more information"
+          id="profile"
+          rows="4"
+          cols="50"
+          placeholder="More information about yourself..."
+          required
+        ></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Submit" />
+        <input type="reset" value="Reset" />
+      </p>
+    </form>
+  </body>
+</html>
