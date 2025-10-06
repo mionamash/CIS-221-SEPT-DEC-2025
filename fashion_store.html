@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+      letter-spacing: 1px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 30px auto;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .intro p {
+      font-size: 1.1em;
+      color: #555;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+    }
+
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      margin: 10px 0 5px;
+      color: #111;
+    }
+
+    .product p {
+      font-size: 0.9em;
+      color: #666;
+    }
+
+    h2 {
+      border-left: 5px solid #ff6600;
+      padding-left: 10px;
+      color: #222;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background-color: white;
+    }
+
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ff6600;
+      color: white;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: #aaa;
+      padding: 15px 0;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+
+    footer span {
+      color: #ff6600;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Fashion Store</h1>
+    <p>Your One-Stop Shop for Style & Elegance</p>
+  </header>
+
+  <div class="container">
+    <section class="intro">
+      <p>Welcome to <strong>Fashion Store</strong> — where trends meet quality. Explore our latest collections of outfits and accessories designed to make you stand out every day!</p>
+    </section>
+
+    <section class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/300x250?text=Men+T-Shirt" alt="Men T-Shirt">
+        <h3>Men's Casual T-Shirt</h3>
+        <p>Comfortable cotton tee for everyday wear. KSh 1,200</p>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/300x250?text=Ladies+Dress" alt="Ladies Dress">
+        <h3>Ladies Summer Dress</h3>
+        <p>Light, colorful, and perfect for sunny days. KSh 2,500</p>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/300x250?text=Sneakers" alt="Sneakers">
+        <h3>Classic Sneakers</h3>
+        <p>Trendy and durable shoes for all occasions. KSh 3,000</p>
+      </div>
+
+      <div class="product">
+        <img src="https://via.placeholder.com/300x250?text=Handbag" alt="Handbag">
+        <h3>Leather Handbag</h3>
+        <p>Elegant design with smooth finish. KSh 3,800</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Upcoming Sale Offers</h2>
+      <table>
+        <tr>
+          <th>Sale Event</th>
+          <th>Start Date</th>
+          <th>Discount</th>
+          <th>Description</th>
+        </tr>
+        <tr>
+          <td>Flash Friday Sale</td>
+          <td>10 Oct 2025</td>
+          <td>Up to 50% Off</td>
+          <td>Massive discounts on men’s wear and accessories.</td>
+        </tr>
+        <tr>
+          <td>Summer Vibes Week</td>
+          <td>18 Oct 2025</td>
+          <td>Up to 40% Off</td>
+          <td>Get the best summer outfits at unbeatable prices.</td>
+        </tr>
+        <tr>
+          <td>Student Style Bonanza</td>
+          <td>25 Oct 2025</td>
+          <td>30% Off</td>
+          <td>Special offers for campus students — show your ID & save!</td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Why Shop With Us?</h2>
+      <ul>
+        <li>✔ Quality fashion at affordable prices</li>
+        <li>✔ Fast and reliable delivery</li>
+        <li>✔ Easy return policy</li>
+        <li>✔ New stock every week</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 <span>Fashion Store</span>. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
